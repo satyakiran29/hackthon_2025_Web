@@ -1,0 +1,73 @@
+.n-navbar{
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.n-navbar-nav{
+    display: flex;   
+}
+.n-banner-heading{
+    font-size: 20px;
+    margin-top: 2px;
+    text-align: center;
+    color: white;
+  }
+
+.n-baner-description{
+    font-size: 16px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+  }    
+  .n-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+.n-bg-container{
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/052/290/526/non_2x/abstract-product-showcase-technology-background-hi-tech-communication-free-vector.jpg');
+    color: #ffffff;
+}
+
+  .n-event-details {
+    margin: 20px 0;
+  }
+  .n-event-details p {
+    margin: 8px 0;
+    color: #555;
+  }
+  .n-description {
+    margin: 30px 0;
+    line-height: 1.6;
+    color: #444;
+
+  }
+  .n-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  .n-btn:hover {
+    background-color: #45a049;
+  }
+  .n-more-event-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .n-dropdown{
+    margin: 5px;
+  }
